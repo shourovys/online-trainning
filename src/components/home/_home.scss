@@ -1,0 +1,28 @@
+.home__container {
+  background-image: url("https://staticv2.amarstock.com/Content/ContentMarketGuru/images/pattern/01.png");
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.hero__background {
+  background-image: url("https://staticv2.amarstock.com/Content/ContentMarketGuru/images/bg/04.png");
+  background-repeat: no-repeat;
+  background-size: 100vw 150vh;
+  background-position: top;
+}
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+
+  &__image {
+    flex: 60%;
+    max-height: 50vh;
+  }
+
+  &__info {
+    flex: 40%;
+    margin: 0 6rem;
+    padding-top: 6rem;
+  }
+}
